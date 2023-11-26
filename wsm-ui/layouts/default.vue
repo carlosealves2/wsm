@@ -4,6 +4,9 @@
 
 <template>
   <div>
+    <header>
+      <HeaderBarBaseHeaderBar />
+    </header>
     <slot />
   </div>
 </template>

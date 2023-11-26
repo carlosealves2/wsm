@@ -69,7 +69,6 @@ const widgets = ref<Widget[]>([
 <template>
   <NuxtLayout>
     <div class="p-8 bg-gray-50 min-h-screen">
-      <span class="text-2xl font-bold">WSM</span>
       <WidgetGrid :widgets="widgets"/>
     </div>
   </NuxtLayout>

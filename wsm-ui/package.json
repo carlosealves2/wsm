@@ -1,6 +1,6 @@
 {
   "name": "nuxt-app",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,14 +12,17 @@
     "test:vitest": "vitest"
   },
   "devDependencies": {
+    "@hypernym/nuxt-anime": "^2.1.1",
     "@nuxt/devtools": "latest",
     "@nuxt/test-utils": "^3.8.1",
+    "@nuxtjs/i18n": "next",
     "@vitejs/plugin-vue": "^4.5.0",
     "@vitest/coverage-v8": "^0.34.6",
     "@vue/test-utils": "^2.4.2",
     "autoprefixer": "^10.4.16",
     "jsdom": "^23.0.0",
     "nuxt": "^3.8.2",
+    "nuxt-icons": "latest",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
     "vitest": "^0.34.6",
@@ -27,6 +30,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@vueuse/nuxt": "^10.6.1",
     "gridstack": "^10.0.0"
   }
 }
